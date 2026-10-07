@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Primo Pip</title>
+  <meta name="description" content="Corso di forex per principianti in italiano, con quiz, calcolatori e un conto demo simulato. Gratis e senza registrazione.">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='8' fill='%231f6f4a'/><path d='M8 22l6-7 4 4 6-9' stroke='white' stroke-width='3' fill='none' stroke-linecap='round' stroke-linejoin='round'/></svg>">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <a class="skip" href="#view">Vai al contenuto</a>
+  <header class="top">
+    <a class="brand" href="#/" aria-label="Primo Pip, home">
+      <svg viewBox="0 0 32 32" width="28" height="28" aria-hidden="true"><rect width="32" height="32" rx="8" fill="currentColor"/><path d="M8 22l6-7 4 4 6-9" stroke="var(--on-accent)" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      <span>Primo Pip</span>
+    </a>
+    <button id="menu" class="menu-btn" aria-expanded="false" aria-controls="nav" aria-label="Menu">☰</button>
+    <nav id="nav" class="nav" aria-label="Principale">
+      <a href="#/corso" data-nav="corso">Corso</a>
+      <a href="#/simulatore" data-nav="simulatore">Simulatore</a>
+      <a href="#/calcolatori" data-nav="calcolatori">Calcolatori</a>
+      <a href="#/glossario" data-nav="glossario">Glossario</a>
+      <a href="#/diario" data-nav="diario">Diario</a>
+      <a href="#/impostazioni" data-nav="impostazioni" aria-label="Impostazioni">⚙</a>
+    </nav>
+  </header>
+  <main id="view" tabindex="-1"></main>
+  <footer class="foot">
+    <p>Solo a scopo educativo. Non è consulenza finanziaria. Il trading con leva può farti perdere più di quanto ti aspetti.</p>
+  </footer>
+  <div id="toasts" class="toasts" aria-live="polite"></div>
+  <noscript><p class="callout warn">Per usare Primo Pip serve JavaScript.</p></noscript>
+  <script type="module" src="js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,13 @@
+{
+  "name": "forex-principianti",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Primo Pip: scuola di forex per principianti con conto demo simulato.",
+  "scripts": {
+    "start": "python3 -m http.server 8000",
+    "test": "node --test tests/*.test.js",
+    "e2e": "node tests/e2e.mjs"
+  },
+  "license": "MIT"
+}

@@ -1,0 +1,32 @@
+feature,area,priority,original,clone,notes
+Corso diviso in livelli progressivi,corso,must,yes,yes,
+Lezioni brevi con esempi numerici,corso,must,yes,yes,
+Segna lezione come completata e progresso salvato,corso,must,yes,yes,
+Navigazione lezione precedente/successiva,corso,must,yes,yes,
+Quiz a scelta multipla per livello con spiegazioni,quiz,must,yes,yes,
+Punteggio quiz salvato,quiz,should,yes,yes,
+Glossario con ricerca,glossario,must,yes,yes,
+Calcolatore valore del pip,calcolatori,must,yes,yes,
+Calcolatore size della posizione (rischio %),calcolatori,must,yes,yes,
+Calcolatore margine con leva,calcolatori,must,yes,yes,
+Calcolatore profitto/perdita,calcolatori,should,yes,yes,
+Calcolatore rischio/rendimento,calcolatori,could,yes,yes,
+Conto demo con saldo virtuale,simulatore,must,yes,yes,
+Prezzi bid/ask con spread,simulatore,must,yes,yes,
+Grafico a candele,simulatore,must,yes,yes,
+Ordini a mercato Buy/Sell in lotti,simulatore,must,yes,yes,
+Stop loss e take profit automatici,simulatore,must,yes,yes,
+Margine/equity/margin level in tempo reale,simulatore,must,yes,yes,
+Stop out automatico,simulatore,should,yes,yes,
+Più coppie valutarie,simulatore,should,yes,yes,
+Storico operazioni,diario,should,yes,yes,
+Note di diario per operazione,diario,could,yes,yes,
+Tema chiaro/scuro,impostazioni,could,yes,yes,
+Reset progressi e conto demo,impostazioni,should,yes,yes,
+Dashboard con prossima lezione,home,should,yes,yes,
+Avviso di rischio ben visibile,home,must,yes,yes,
+Account utente e sincronizzazione cloud,account,could,yes,skip,v1 resta offline e senza registrazione: tutto in localStorage
+Prezzi di mercato reali,simulatore,could,yes,skip,dati licenziati: si usano prezzi simulati
+Forum e community,community,could,yes,skip,è la loro rete di utenti e non una funzione
+Tutto in italiano,i18n,must,no,yes,aggiunto: gli originali di categoria sono quasi tutti in inglese
+Leva e stop out secondo regole ESMA retail,simulatore,should,no,yes,aggiunto: realismo per utenti UE
