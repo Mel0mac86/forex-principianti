@@ -1,0 +1,4 @@
+node_modules/
+replica/screens/
+*.png
+!docs/*.png
